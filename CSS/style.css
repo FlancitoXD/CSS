@@ -1,0 +1,13 @@
+/*esto es un comentario de CSS*/
+/*propiedades para colocar color de fondo*/
+header{
+    background-color: blueviolet;
+    color: blue;
+}
+h2 {
+    background-color: red;
+}
+section{
+    background-color: black;
+    color: white;
+}
