@@ -1,0 +1,93 @@
+img {
+
+    border: 8px solid #00B1B1;
+    border-radius: 80px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+/*ENCABEZADO*/
+/*Selector por etiqueta*/
+header {
+    border-bottom: 2px solid blue;
+    text-align: center;
+}
+/*Main*/
+main {
+width: 700px; /* defino el ancho del main en px*/
+margin: 0 auto;/* margin son los margenes, 0 es aplicado al top y al botton auto es automatico (ajuste) al left y right */
+border: 2px solid #000;
+border-radius: 4px;
+}
+/*Selector por descendencia */
+main ul {
+    list-style:none;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #ccc;
+    
+}
+main ul li {
+    border-bottom: 1px solid #000;
+    padding: 8px;
+}
+/*Selector por descendencia */
+main ul li span {
+    font-weight: 900;
+   
+}
+ 
+
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.btn {
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 5px;
+
+}
+
+/*FORMULARIO*/
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea { 
+    width: 98%; /* width es ancho*/
+    border: 2px solid #a3a3a3;
+    border-radius: 6px;
+    padding: 5px;
+}
+/* selector por clases*/
+.contenedor-btn {
+    border-top: 2px dashed #808080;/* dashed hace una linea no continua*/
+}
+
+
+
+/*# es el signo para seleccionar un ID*/
+#btn-contacto {
+    color: #FFFFFF;
+    background-color: #0F97FF;
+
+}
+
+#btn-portafolio {
+    color: #FFFFFF;
+    background-color: #FF0700;
+}
+p {
+    text-align: center;
+}

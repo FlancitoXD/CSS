@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>la leyenda del voley</title>
+    <link rel="stylesheet" href="css_semantica.css">
+</head>
+<body>
+    <header>
+        <div><img src="./De-Cecco.jpg" width="350" alt=""></div>
+
+        <h1>Luciano De Cecco</h1>
+
+        <h2><em><strong>jugador de voley profecional</strong></em></h2>
+    </header>
+    <main>
+        <section>
+            <h2>Acerca de Luciano De Cecco</h2>
+
+            <p>Luciano De Cecco es un jugador argentino de voleibol que juega de armador. 
+                Actualmente se desempeña en el Norwid Czestochowa de la PlusLiga de Polonia.
+            nacio el 2 de junio de 1988 en la ciudad de Santa Fe</p>
+                
+                <ul>
+                    <li><strong>correo:</strong>
+                        <ul>
+                            <li>LucianoDEcecco15@gmail.com</li>
+                        </ul>
+                    </li>
+                    <li><strong>ubicacion:</strong>
+                        <ul>
+                            <li>Santa Fe Argentina</li>
+                        </ul>
+                    </li>
+                    <li><strong>experiencia:</strong>
+                        <ul>
+                            <li>20 años</li>
+                        </ul>
+                    </li>
+                </ul>
+
+        </section>
+
+        <section>
+            <form action="destino.js">
+              
+                    <label for="datos">ingrese su nombre y apellido</label>
+                    <input type="text" name="datos" id="datos" required>
+                    <label for="email">ingrese su gmail</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="contraseña">ingrese su contraseña</label>
+                    <input type="password" name="contaseña" id="contraseña" required>
+                    <label for="numero">ingrese su telefono</label>
+                    <input type="number" name="numero" id="numero">
+                    <label for="pais">pais</label>
+                    <div>
+                        <select name="pais" id="pais">
+                            <option value="pais">seleccione un pais</option>
+                            <option value="argentina">🇦🇷</option>
+                            <option value="brasil">🇧🇷</option>
+                            <option value="españa">🇪🇸</option>
+                            <option value="chile">🇨🇱</option>
+                        </select>
+                    </div>
+             
+                <label for="intereses">intereses</label>
+                <div><textarea name="interes" id="interes" placeholder="contanos sobre tus intereses"></textarea></div>
+                <label for="terminos">acepto los terminos y condiciones</label>
+                <input type="checkbox" name="checkbox" id="checkbox" required>
+                <div>
+                    <p>debes aceptar los terminos y condiciones para continuar</p>
+                </div>
+                <div class="contenedor-btn">
+                    <button type="submit" class="btn" id="btn-contacto">contactar</button>
+                    <button class="btn" id="btn-portafolio">portafolio</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
